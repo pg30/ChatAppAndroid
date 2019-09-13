@@ -149,6 +149,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     // TODO: Save the display name to Shared Preferences
+    //used to save data locally on then device
     private void saveDisplayName()
     {
         String displayName = mUsernameView.getText().toString();
